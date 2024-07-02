@@ -1,0 +1,65 @@
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+.timer {
+  font-weight: bold;
+}
+.logo-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 3%;
+}
+
+.domain-url {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.website-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 1%;
+}
+
+.middler {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.new-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .historyItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  .new-one {
+    width: 100%;
+  }
+  .website-name{
+    font-size: 12px;
+  }
+  .domain-url{
+    font-size: 8px;
+  }
+}
